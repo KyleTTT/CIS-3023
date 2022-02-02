@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background:#646fd4;
+}
+#content{
+    border-radius: 25px;
+    box-shadow: 3px 2px #d1d1e0;
+    margin: 10px auto;
+    padding: 5px 20px;
+    background: white;
+    border: thick solid black;
+    border-style: inset;
+    width: 400px;
+    background-image:linear-gradient(to right, rgba(209,209,244,0), rgba(209,209,224,1));
+    
+}
+#salesTax,#total{
+    color:black;
+}
+#taxCalc label{
+    display: block;
+    width: 10em;
+    text-align: right ;
+    padding-right: 1em;
+    float: left;
+}
+#taxCalc input{
+    border-radius: 5px;
+    display: block;
+    margin-top: 5px;
+    float: left;
+}
+#taxCalc br{
+    clear:left;
+}
+#calculateFields{
+    display:block;
+    background:#ccffcc;
+    background-image: linear-gradient(to right, #ccffcc , #ccffff);
+    box-shadow: 1px 1px #00ffee;
+
+    width:120px;
+    height: 40px;
+    border: thin black;
+    border-radius: 8px;
+    margin-top: 6em;
+    padding: 0;
+}
+
+#calculateFields:hover{
+    background: #ddee11;
+}
+#calculateFields:focus{
+    background: #9999AA;
+}
+#taxCalc input:focus{
+    background:#ccffcc;
+}
